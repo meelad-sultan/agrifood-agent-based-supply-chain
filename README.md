@@ -9,6 +9,7 @@ A deterministic agent-based simulation of farmers, processors and retailers, com
 ![License: MIT](https://img.shields.io/badge/license-MIT-blue)
 ![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue)
 [![CI](https://github.com/meelad-sultan/agrifood-agent-based-supply-chain/actions/workflows/ci.yml/badge.svg)](https://github.com/meelad-sultan/agrifood-agent-based-supply-chain/actions/workflows/ci.yml)
+[![DOI](https://zenodo.org/badge/1448951468.svg)](https://doi.org/10.5281/zenodo.24027189)
 
 </div>
 
@@ -19,7 +20,19 @@ A deterministic agent-based simulation of farmers, processors and retailers, com
 > - **Use:** results show how the model behaves, not what a real chain will do.
 
 ## Contents
-1. [Why this project](#1-why-this-project) · 2. [Model](#2-the-model) · 3. [Experiments](#3-experiments) · 4. [Results](#4-results) · 5. [Quickstart](#5-quickstart) · 6. [Reproducing](#6-reproducing-the-study) · 7. [Configuration and outputs](#7-configuration-and-outputs) · 8. [API](#8-python-api) · 9. [Testing](#9-testing-and-ci) · 10. [Structure](#10-repository-structure) · 11. [Limitations](#11-limitations) · 12. [Roadmap](#12-roadmap) · 13. [Citation](#13-citation-licence-references)
+1. [Why this project](#1-why-this-project) · 
+2. [Model](#2-the-model) · 
+3. [Experiments](#3-experiments) · 
+4. [Results](#4-results) · 
+5. [Quickstart](#5-quickstart) · 
+6. [Reproducing](#6-reproducing-the-study) · 
+7. [Configuration and outputs](#7-configuration-and-outputs) · 
+8. [API](#8-python-api) · 
+9. [Testing](#9-testing-and-ci) · 
+10. [Structure](#10-repository-structure) · 
+11. [Limitations](#11-limitations) · 
+12. [Roadmap](#12-roadmap) · 
+13. [Citation](#13-citation-licence-references)
 
 ## 1. Why this project
 Small swings in consumer demand become large swings in orders further up a supply chain, the **bullwhip effect** (Forrester 1958; Lee, Padmanabhan and Whang 1997). In agri-food chains production is seasonal, milk is perishable and climate shocks hit several farms at once. This repository builds a small agent-based model and asks:
@@ -322,7 +335,7 @@ flowchart TD
 Separate information, decision rights and flexibility in the planner (ablations); better early-warning rules; learning agents (for example multi-agent reinforcement learning) compared with the tuned rules; calibration to real dairy-chain data; heterogeneous firms, several products and contracts; sensitivity analysis over cost weights, spoilage and lead times.
 
 ## 13. Citation, licence, references
-**Cite as** (see `CITATION.cff`): Sultan, M. M. (2026). *agrifood-agent-based-supply-chain: agent-based simulation of ordering, information sharing and the bullwhip effect under climate shocks* (v0.1.0). GitHub repository.
+**Cite as** (see `CITATION.cff`): Sultan, M. M. (2026). *agrifood-agent-based-supply-chain: agent-based simulation of ordering, information sharing and the bullwhip effect under climate shocks* (v0.1.0) DOI: https://doi.org/10.5281/zenodo.24027189.
 **Licence:** MIT. **Author:** Muhammad Meelad Sultan · GitHub: [@meelad-sultan](https://github.com/meelad-sultan)
 
 **References** 
