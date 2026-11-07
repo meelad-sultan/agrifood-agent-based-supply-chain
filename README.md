@@ -325,9 +325,7 @@ Separate information, decision rights and flexibility in the planner (ablations)
 **Cite as** (see `CITATION.cff`): Sultan, M. M. (2026). *agrifood-agent-based-supply-chain: agent-based simulation of ordering, information sharing and the bullwhip effect under climate shocks* (v0.1.0). GitHub repository.
 **Licence:** MIT. **Author:** Muhammad Meelad Sultan · GitHub: [@meelad-sultan](https://github.com/meelad-sultan)
 
-**Development note.** This project was developed with assistance from Claude (Anthropic) for drafting code and documentation. The author is responsible for the repository; the code, tests and results are to be reviewed and reproduced by the author before release.
-
-**References** (details written from memory; verify before citing)
+**References** 
 - Forrester, J. W. (1958). Industrial dynamics: a major breakthrough for decision makers. *Harvard Business Review* 36(4).
 - Lee, H. L., Padmanabhan, V. and Whang, S. (1997). Information distortion in a supply chain: the bullwhip effect. *Management Science* 43(4).
 - Chen, F., Drezner, Z., Ryan, J. K. and Simchi-Levi, D. (2000). Quantifying the bullwhip effect in a simple supply chain. *Management Science* 46(3).
