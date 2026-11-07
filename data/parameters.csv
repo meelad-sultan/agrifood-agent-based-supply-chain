@@ -1,0 +1,47 @@
+key,value,status,note
+seed,20261020,illustrative,illustrative; not calibrated to any firm or dataset
+horizon_weeks,156,illustrative,illustrative; not calibrated to any firm or dataset
+warmup_weeks,26,illustrative,illustrative; not calibrated to any firm or dataset
+farmers.names,"['Friesland', 'Gelderland', 'Noord-Brabant', 'Overijssel', 'Utrecht', 'Noord-Holland']",illustrative,illustrative; not calibrated to any firm or dataset
+farmers.lat,"[53.1, 52.05, 51.5, 52.45, 52.1, 52.6]",illustrative,illustrative; not calibrated to any firm or dataset
+farmers.lon,"[5.8, 5.9, 5.2, 6.4, 5.1, 4.8]",illustrative,illustrative; not calibrated to any firm or dataset
+farmers.capacity,"[95, 85, 75, 65, 55, 55]",illustrative,illustrative; not calibrated to any firm or dataset
+processors.capacity,"[260, 200, 200]",illustrative,illustrative; not calibrated to any firm or dataset
+retailers.base_demand,"[120, 100, 90, 90]",illustrative,illustrative; not calibrated to any firm or dataset
+retailers.home_processor,"[0, 0, 1, 2]",illustrative,illustrative; not calibrated to any firm or dataset
+demand.seasonal_amp,0.1,illustrative,illustrative; not calibrated to any firm or dataset
+demand.noise_cv,0.15,illustrative,illustrative; not calibrated to any firm or dataset
+demand.ar_phi,0.5,illustrative,illustrative; not calibrated to any firm or dataset
+demand.common_share,0.5,illustrative,illustrative; not calibrated to any firm or dataset
+supply.seasonal_amp,0.12,illustrative,illustrative; not calibrated to any firm or dataset
+supply.noise_cv,0.03,illustrative,illustrative; not calibrated to any firm or dataset
+supply.shock_scale,1.0,illustrative,illustrative; not calibrated to any firm or dataset
+supply.shock_window_weeks,"[18, 36]",illustrative,illustrative; not calibrated to any firm or dataset
+supply.ramp_weeks,4,illustrative,illustrative; not calibrated to any firm or dataset
+climate.corr_length_km,200,illustrative,climate-shock process: same illustrative process as the companion supply-chain repository
+climate.df,4,illustrative,climate-shock process: same illustrative process as the companion supply-chain repository
+climate.skew_a,-4.0,illustrative,climate-shock process: same illustrative process as the companion supply-chain repository
+climate.loc,0.08,illustrative,climate-shock process: same illustrative process as the companion supply-chain repository
+climate.scale,0.12,illustrative,climate-shock process: same illustrative process as the companion supply-chain repository
+spoilage.retailer,0.05,illustrative,illustrative; not calibrated to any firm or dataset
+spoilage.processor,0.01,illustrative,illustrative; not calibrated to any firm or dataset
+costs.hold_retailer,0.4,illustrative,illustrative; not calibrated to any firm or dataset
+costs.hold_processor,0.1,illustrative,illustrative; not calibrated to any firm or dataset
+costs.shortage,4.0,illustrative,illustrative; not calibrated to any firm or dataset
+costs.spoil,1.0,illustrative,illustrative; not calibrated to any firm or dataset
+costs.raw_waste,0.3,illustrative,illustrative; not calibrated to any firm or dataset
+policy.alpha,0.2,illustrative,illustrative; not calibrated to any firm or dataset
+policy.alpha_retailer,0.3,illustrative,illustrative; not calibrated to any firm or dataset
+policy.alpha_sigma,0.1,illustrative,illustrative; not calibrated to any firm or dataset
+policy.beta,1.0,illustrative,illustrative; not calibrated to any firm or dataset
+policy.cover_retailer,2.0,illustrative,illustrative; not calibrated to any firm or dataset
+policy.cover_processor,2.0,illustrative,illustrative; not calibrated to any firm or dataset
+policy.z_retailer,1.28,illustrative,illustrative; not calibrated to any firm or dataset
+policy.z_processor,1.28,illustrative,illustrative; not calibrated to any firm or dataset
+policy.gaming,0.0,illustrative,illustrative; not calibrated to any firm or dataset
+policy.supply_forecast.horizon_weeks,10,illustrative,illustrative; not calibrated to any firm or dataset
+policy.supply_forecast.noise_cv,0.0,illustrative,illustrative; not calibrated to any firm or dataset
+policy.supply_forecast.theta,1.0,illustrative,illustrative; not calibrated to any firm or dataset
+policy.supply_forecast.max_build_weeks,4.0,illustrative,illustrative; not calibrated to any firm or dataset
+policy.central.horizon_weeks,6,illustrative,illustrative; not calibrated to any firm or dataset
+policy.central.z,1.28,illustrative,illustrative; not calibrated to any firm or dataset

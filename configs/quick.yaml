@@ -1,0 +1,10 @@
+extends: default.yaml
+horizon_weeks: 90
+warmup_weeks: 20
+experiments:
+  regimes: {reps: 3, shock_scale: 1.0}
+  shock_sweep: {reps: 2, scales: [0.0, 3.0]}
+  policy_map: {reps: 2, alphas: [0.1, 0.5], betas: [0.5, 1.0], regimes: [none, vmi]}
+  gaming: {reps: 2, values: [0.0, 1.0], shock_scale: 3.0, regimes: [none, vmi]}
+  forecast_noise: {reps: 2, values: [0.0, 1.0], shock_scale: 3.0, regimes: [full, central]}
+  tuning: {reps: 2, covers: [1.0, 2.0], zs: [0.5, 1.28], thetas: [0.0, 0.5], regimes: [none, pos, vmi, full], seed_offset: 5000}

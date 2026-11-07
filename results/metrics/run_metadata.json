@@ -1,0 +1,224 @@
+{
+  "afabm_version": "0.1.0",
+  "config_path": "configs/default.yaml",
+  "config": {
+    "seed": 20261020,
+    "horizon_weeks": 156,
+    "warmup_weeks": 26,
+    "farmers": {
+      "names": [
+        "Friesland",
+        "Gelderland",
+        "Noord-Brabant",
+        "Overijssel",
+        "Utrecht",
+        "Noord-Holland"
+      ],
+      "lat": [
+        53.1,
+        52.05,
+        51.5,
+        52.45,
+        52.1,
+        52.6
+      ],
+      "lon": [
+        5.8,
+        5.9,
+        5.2,
+        6.4,
+        5.1,
+        4.8
+      ],
+      "capacity": [
+        95,
+        85,
+        75,
+        65,
+        55,
+        55
+      ]
+    },
+    "processors": {
+      "capacity": [
+        260,
+        200,
+        200
+      ]
+    },
+    "retailers": {
+      "base_demand": [
+        120,
+        100,
+        90,
+        90
+      ],
+      "home_processor": [
+        0,
+        0,
+        1,
+        2
+      ]
+    },
+    "demand": {
+      "seasonal_amp": 0.1,
+      "noise_cv": 0.15,
+      "ar_phi": 0.5,
+      "common_share": 0.5
+    },
+    "supply": {
+      "seasonal_amp": 0.12,
+      "noise_cv": 0.03,
+      "shock_scale": 1.0,
+      "shock_window_weeks": [
+        18,
+        36
+      ],
+      "ramp_weeks": 4
+    },
+    "climate": {
+      "corr_length_km": 200,
+      "df": 4,
+      "skew_a": -4.0,
+      "loc": 0.08,
+      "scale": 0.12
+    },
+    "spoilage": {
+      "retailer": 0.05,
+      "processor": 0.01
+    },
+    "costs": {
+      "hold_retailer": 0.4,
+      "hold_processor": 0.1,
+      "shortage": 4.0,
+      "spoil": 1.0,
+      "raw_waste": 0.3
+    },
+    "policy": {
+      "alpha": 0.2,
+      "alpha_retailer": 0.3,
+      "alpha_sigma": 0.1,
+      "beta": 1.0,
+      "cover_retailer": 2.0,
+      "cover_processor": 2.0,
+      "z_retailer": 1.28,
+      "z_processor": 1.28,
+      "gaming": 0.0,
+      "supply_forecast": {
+        "horizon_weeks": 10,
+        "noise_cv": 0.0,
+        "theta": 1.0,
+        "max_build_weeks": 4.0
+      },
+      "central": {
+        "horizon_weeks": 6,
+        "z": 1.28
+      }
+    },
+    "regimes": [
+      "none",
+      "pos",
+      "vmi",
+      "full",
+      "central"
+    ],
+    "experiments": {
+      "regimes": {
+        "reps": 30,
+        "shock_scale": 1.0
+      },
+      "shock_sweep": {
+        "reps": 20,
+        "scales": [
+          0.0,
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      "policy_map": {
+        "reps": 15,
+        "alphas": [
+          0.1,
+          0.3,
+          0.5,
+          0.8
+        ],
+        "betas": [
+          0.25,
+          0.5,
+          1.0
+        ],
+        "regimes": [
+          "none",
+          "vmi"
+        ]
+      },
+      "gaming": {
+        "reps": 20,
+        "values": [
+          0.0,
+          0.25,
+          0.5,
+          1.0
+        ],
+        "shock_scale": 3.0,
+        "regimes": [
+          "none",
+          "pos",
+          "vmi"
+        ]
+      },
+      "forecast_noise": {
+        "reps": 20,
+        "values": [
+          0.0,
+          0.5,
+          1.0
+        ],
+        "shock_scale": 3.0,
+        "regimes": [
+          "full",
+          "central"
+        ]
+      },
+      "tuning": {
+        "reps": 6,
+        "covers": [
+          0.5,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "zs": [
+          1.0,
+          1.28,
+          1.65
+        ],
+        "thetas": [
+          0.0,
+          0.5,
+          1.0
+        ],
+        "regimes": [
+          "none",
+          "pos",
+          "vmi",
+          "full"
+        ],
+        "seed_offset": 5000
+      }
+    }
+  },
+  "timings_s": {
+    "forecast_noise": 25.1
+  },
+  "total_s": 25.5,
+  "python": "3.12.3",
+  "platform": "Linux-6.18.44-fc-v233-x86_64-with-glibc2.39",
+  "packages": {
+    "numpy": "2.4.4",
+    "scipy": "1.17.1",
+    "pandas": "3.0.2"
+  }
+}

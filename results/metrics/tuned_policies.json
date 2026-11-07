@@ -1,0 +1,172 @@
+{
+  "scale=1.0": {
+    "none": {
+      "cover": 1.0,
+      "z": 1.28,
+      "theta": null,
+      "cost_per_week": 86.02285565361025
+    },
+    "pos": {
+      "cover": 1.0,
+      "z": 1.28,
+      "theta": null,
+      "cost_per_week": 84.95979059177824
+    },
+    "vmi": {
+      "cover": 1.0,
+      "z": 1.28,
+      "theta": null,
+      "cost_per_week": 85.76353369116059
+    },
+    "full": {
+      "cover": 1.0,
+      "z": 1.28,
+      "theta": 0.0,
+      "cost_per_week": 85.76353369116059
+    },
+    "central": {
+      "cover": null,
+      "z": 1.28,
+      "theta": null,
+      "cost_per_week": 76.68783236808783
+    }
+  },
+  "scale=0.0": {
+    "none": {
+      "cover": 1.0,
+      "z": 1.28,
+      "theta": null,
+      "cost_per_week": 85.65273469864958
+    },
+    "pos": {
+      "cover": 1.0,
+      "z": 1.28,
+      "theta": null,
+      "cost_per_week": 84.74744017475756
+    },
+    "vmi": {
+      "cover": 1.0,
+      "z": 1.28,
+      "theta": null,
+      "cost_per_week": 85.51159025184087
+    },
+    "full": {
+      "cover": 1.0,
+      "z": 1.28,
+      "theta": 0.0,
+      "cost_per_week": 85.51159025184087
+    },
+    "central": {
+      "cover": null,
+      "z": 1.28,
+      "theta": null,
+      "cost_per_week": 76.59383307909543
+    }
+  },
+  "scale=2.0": {
+    "none": {
+      "cover": 1.0,
+      "z": 1.28,
+      "theta": null,
+      "cost_per_week": 88.51968043023531
+    },
+    "pos": {
+      "cover": 1.0,
+      "z": 1.28,
+      "theta": null,
+      "cost_per_week": 87.4474343039795
+    },
+    "vmi": {
+      "cover": 1.0,
+      "z": 1.28,
+      "theta": null,
+      "cost_per_week": 88.22881157677477
+    },
+    "full": {
+      "cover": 1.0,
+      "z": 1.28,
+      "theta": 0.0,
+      "cost_per_week": 88.22881157677477
+    },
+    "central": {
+      "cover": null,
+      "z": 1.28,
+      "theta": null,
+      "cost_per_week": 77.66631108884432
+    }
+  },
+  "scale=3.0": {
+    "none": {
+      "cover": 1.0,
+      "z": 1.28,
+      "theta": null,
+      "cost_per_week": 98.5566759201048
+    },
+    "pos": {
+      "cover": 1.0,
+      "z": 1.28,
+      "theta": null,
+      "cost_per_week": 97.89384290021712
+    },
+    "vmi": {
+      "cover": 1.0,
+      "z": 1.28,
+      "theta": null,
+      "cost_per_week": 98.58514085728474
+    },
+    "full": {
+      "cover": 1.0,
+      "z": 1.28,
+      "theta": 0.0,
+      "cost_per_week": 98.58514085728474
+    },
+    "central": {
+      "cover": null,
+      "z": 1.28,
+      "theta": null,
+      "cost_per_week": 88.52122768202067
+    }
+  },
+  "scale=3.0|noise=0.0": {
+    "full": {
+      "cover": 1.0,
+      "z": 1.28,
+      "theta": 0.0,
+      "cost_per_week": 98.58514085728474
+    },
+    "central": {
+      "cover": null,
+      "z": 1.28,
+      "theta": null,
+      "cost_per_week": 88.52122768202067
+    }
+  },
+  "scale=3.0|noise=0.5": {
+    "full": {
+      "cover": 1.0,
+      "z": 1.28,
+      "theta": 0.0,
+      "cost_per_week": 98.58514085728474
+    },
+    "central": {
+      "cover": null,
+      "z": 1.65,
+      "theta": null,
+      "cost_per_week": 93.64223067952447
+    }
+  },
+  "scale=3.0|noise=1.0": {
+    "full": {
+      "cover": 1.0,
+      "z": 1.28,
+      "theta": 0.0,
+      "cost_per_week": 98.58514085728474
+    },
+    "central": {
+      "cover": null,
+      "z": 1.0,
+      "theta": null,
+      "cost_per_week": 106.33760725275914
+    }
+  }
+}
