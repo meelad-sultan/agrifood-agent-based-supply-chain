@@ -335,9 +335,8 @@ flowchart TD
 Separate information, decision rights and flexibility in the planner (ablations); better early-warning rules; learning agents (for example multi-agent reinforcement learning) compared with the tuned rules; calibration to real dairy-chain data; heterogeneous firms, several products and contracts; sensitivity analysis over cost weights, spoilage and lead times.
 
 ## 13. Citation, licence, references
-**Cite as** (see `CITATION.cff`): Sultan, M. M. (2026). *agrifood-agent-based-supply-chain: agent-based simulation of ordering, information sharing and the bullwhip effect under climate shocks* (v0.1.0) DOI: 10.5281/zenodo.24027189.
-**Licence:** MIT.
- **Author:** Muhammad Meelad Sultan · GitHub: [@meelad-sultan](https://github.com/meelad-sultan)
+**Cite as** (see `CITATION.cff`): Sultan, M. M. (2026). *agrifood-agent-based-supply-chain: agent-based simulation of ordering, information sharing and the bullwhip effect under climate shocks* (v0.1.0) DOI: https://doi.org/10.5281/zenodo.24027190
+**Licence:** MIT. **Author:** Muhammad Meelad Sultan · GitHub: [@meelad-sultan](https://github.com/meelad-sultan)
 
 **References** 
 - Forrester, J. W. (1958). Industrial dynamics: a major breakthrough for decision makers. *Harvard Business Review* 36(4).
